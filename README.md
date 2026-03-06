@@ -306,12 +306,30 @@ Structured MADR's frontmatter enables AI tools to:
 - [JSON Schema](schemas/structured-madr.schema.json) - Validation schema
 - [Contributing](CONTRIBUTING.md) - How to contribute
 
+## Citing This Project
+
+If you use Structured MADR in academic or published work, please cite it using the [CITATION.cff](CITATION.cff) file or GitHub's "Cite this repository" button.
+
+```bibtex
+@software{Allen_Structured_MADR,
+  author    = {Allen, Robert},
+  title     = {Structured MADR},
+  version   = {1.1.0},
+  url       = {https://github.com/zircote/structured-madr},
+  license   = {MIT}
+}
+```
+
 ## Acknowledgments
 
 Structured MADR builds upon the excellent work of:
 
-- [MADR](https://adr.github.io/madr/) - The foundation format
-- [Michael Nygard](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) - Original ADR concept
+- [MADR](https://adr.github.io/madr/) by Kopp, Armbruster, and Zimmermann - The foundation format and direct ancestor
+  > Kopp, O., Armbruster, A., & Zimmermann, O. (2018). Markdown Architectural Decision Records: Format and Tool Support. *ZEUS*.
+- [Michael Nygard](https://cognitect.com/blog/2011/11/15/documenting-architecture-decisions) - Original ADR concept (2011)
+- [Y-Statements](https://medium.com/olzzio/y-statements-10eb07b5a177) by Olaf Zimmermann - Single-sentence decision capture format
+- [Tyree & Akerman](https://personal.utdallas.edu/~chung/SA/zz-Misc-from-Mail/09.02.02/Tyree05.pdf) - Comprehensive ADR format for enterprise governance
+  > Tyree, J. & Akerman, A. (2005). Architecture Decisions: Demystifying Architecture. *IEEE Software*, 22(2), 19-27.
 - [ADR GitHub Organization](https://github.com/adr) - ADR tooling ecosystem
 
 ## License
